@@ -13,7 +13,7 @@ test:
 
 dependencies:
   pre:
-    - curl -o- -L https://yarnpkg.com/install.sh | bash
+    - npm i -g yarn@0.16.1
   cache_directories:
     - "~/.yarn-cache"
   override:
