@@ -13,7 +13,7 @@ $ npm install --save hexo-renderer-buble
 Just install this package and you're all set, if you want custom options for buble, simply do:
 
 ```yml
-// _config.yml
+# _config.yml
 buble:
   transforms:
     dangerousForOf: true
