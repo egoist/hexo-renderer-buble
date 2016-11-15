@@ -1,0 +1,41 @@
+{
+  "name": "hexo-renderer-buble",
+  "version": "0.0.0",
+  "description": "Using buble to compile js files in your Hexo website.",
+  "license": "MIT",
+  "repository": "egoist/hexo-renderer-buble",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "jest && eslint lib/*.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "hexo",
+    "buble",
+    "transform"
+  ],
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-egoist": "latest",
+    "jest-cli": "^15.1.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "extends": "egoist/esnext"
+  },
+  "dependencies": {
+    "buble": "^0.14.2"
+  }
+}
