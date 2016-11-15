@@ -21,6 +21,19 @@ buble:
 
 Check out all buble options: https://buble.surge.sh/guide/#using-the-javascript-api
 
+### include
+
+You can include specified files you wanna transform through buble:
+
+```yml
+buble:
+  include: **/foo.js
+  # or array
+  include:
+    - **/foo.js
+    - **/js/bar.js
+```
+
 ## Contributing
 
 1. Fork it!

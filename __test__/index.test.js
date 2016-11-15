@@ -5,7 +5,7 @@ test('main', () => {
     buble: {
       objectAssign: 'lol.assign'
     }
-  }}, {text: 'const foo = {...{}};'})
+  }}, {text: 'const foo = {...{}};', path: '/foo.js'})
     .then(code => {
       expect(code).toBe('var foo = lol.assign({}, {});')
     })
