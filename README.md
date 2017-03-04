@@ -23,7 +23,7 @@ Check out all buble options: https://buble.surge.sh/guide/#using-the-javascript-
 
 ### include
 
-You can include specified files you wanna transform through buble:
+By default it transforms all `.js` `.jsx` `.es6` files, but you can also set `include` to transform specified files only:
 
 ```yml
 buble:
