@@ -21,6 +21,18 @@ buble:
 
 Check out all buble options: https://buble.surge.sh/guide/#using-the-javascript-api
 
+Default options:
+
+```js
+{
+  transforms: {
+    generator: false,
+    dangerousForOf: true,
+    dangerousTaggedTemplateString: true
+  }
+}
+```
+
 ### include
 
 By default it transforms all `.js` `.jsx` `.es6` files, but you can also set `include` to transform specified files only:
