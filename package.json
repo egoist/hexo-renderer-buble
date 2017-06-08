@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-buble",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Using buble to compile js files in your Hexo website.",
   "license": "MIT",
   "repository": "egoist/hexo-renderer-buble",
